@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+.vacancy{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e4e6e7;
+    text-align: left;
+}
+.vacancy-title{
+    color: #2998ff;
+}
+.vacancy-nameOrg, .vacancy-region{
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999999;
+}
+.vacancy-mainDescription, .vacancy-secondDescription {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #252525;
+}
+.vacancy-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #1e88e5;
+    background-color: #1e88e5;
+    
+}
+.vacancy-date{
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+}

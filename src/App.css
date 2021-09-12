@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.title-task_1, .title-task_2 {
+  margin: 15px 0 15px 0;
+  font-size: medium;
+  font-weight: 300;
+  color: #616c77;
+}
+.title-task_3 {
+  margin: 310px 0 15px 0;
+  font-size: medium;
+  font-weight: 300;
+  color: #616c77;
+}
