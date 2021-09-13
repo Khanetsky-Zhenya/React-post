@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.title-task_1, .title-task_2 {
+.title-task_1, .title-task_2, .title-task_4 {
   margin: 15px 0 15px 0;
   font-size: medium;
   font-weight: 300;

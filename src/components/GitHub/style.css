@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+.repository {
+    padding: 24px 0;
+    border-top: 1px solid #d8dee4;
+    border-bottom: 1px solid #d8dee4;
+}
+.repository-header {
+    display: flex;
+    justify-content: space-between;
+}
+.repository-header-firstFlex{
+    display: flex;
+}
+.repository-header_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0969da;
+    cursor: pointer;
+}
+.repository-header_title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.repository-header_type {
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 8px;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #57606a;
+    line-height: 18px;
+    border: 1px solid #d8dee4;
+    border-radius: 2em;
+}
+.repository-header_button {
+    width: 80px;
+    padding: 3px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #57606a;
+    background-color: #fff8f88a
+}
+.star {
+    width: 15px;
+}
+.repository-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.repository-footer_programmingLanguage {
+    font-size: 12px;
+    color: #57606a;
+}
+span {
+    color: rgb(253, 207, 2);
+}
+.repository-footer_dateUpd {
+    color: #57606a;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.repository-footer-firstFlex{
+    display: flex;
+}
+.repository-footer_activity {
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid;
+    color: #57606a;
+    background-color: #fff8f88a
+}

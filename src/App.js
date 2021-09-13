@@ -3,6 +3,7 @@ import './App.css';
 import { TheFacebookCard } from "./components/TheFacebook/TheFasebookCard"
 import { OnlinerCard } from './components/Onliner/OnlinerCard';
 import { RabotaByCard } from './components/RabotaBy/RabotaByCard';
+import { GithubCard } from './components/GitHub/GithubCard';
 
 const postsFb = [
   {
@@ -34,6 +35,15 @@ const postsRabotaBy = [
     mainDescription:"Медидинское обслуживание. Онлайн-ивенты. Реферальная программа.",
     secondDescription:"10+ лет успешной работы на глобальном рынке ИТ-услуг. Какие знания и навыки для старта: Базовые знания HTML...",
     date:"7 сентября",
+  }
+]
+
+const postsGithub = [
+  {
+    title: "React-post ",
+    type: "Public",
+    programmingLanguage:"JavaScript",
+    dateUpd:"Updated 16 hours ago",
   }
 ]
 
@@ -110,6 +120,26 @@ function App() {
           )
         })
       }
+      <h1 className="title-task_4"> задача 4 GitHub </h1>
+      {
+      postsGithub.map((postGithub)=>{
+          const {
+            title,
+            type,
+            programmingLanguage,
+            dateUpd,
+          } = postGithub;
+          return (
+            <GithubCard
+            title={title}
+            type={type}
+            programmingLanguage={programmingLanguage}
+            dateUpd={dateUpd}
+            />
+          )
+        })
+      }
+       <h1 className="title-task_4"> ВСЁ!)</h1>
     </div>
   );
 }
