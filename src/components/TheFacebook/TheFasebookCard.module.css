@@ -17,7 +17,7 @@
     border-top: 1px solid #e4e6e7;
     border-bottom: 1px solid #e4e6e7;
 }
-.post-img {
+.post_img {
     width: 90px;
     height: 90px;
     margin: 10px 15px 10px 0;
@@ -28,30 +28,30 @@
     justify-content: space-between;
     margin: 10px 0 10px 0;
 }
-.info-title{
+.info_title{
     display: flex;
 }
-.info-title__name, .info-title__secondName {
+.info_title__name, .info_title__secondName {
     margin-right: 10px;
     font-weight: 700;
     color: #3b5c9f;
 }
-.info-title__career{
+.info_title__career{
     font-weight: 300;
     color: #9da5ad;
 }
-.info-text {
+.info_text {
     font-weight:600;
 }
-.info-subtitle{
+.info_subtitle{
     display: flex;
 }
-.info-subtitle__like, .info-subtitle__reply {
+.info_subtitle__like, .info_subtitle__reply {
     margin-right: 10px;
     font-weight: 500;   
     color: #3b5c9f;
 }
-.info-subtitle__time {
+.info_subtitle__time {
     font-weight: 350;
     color: #9da5ad;
 }
