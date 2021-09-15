@@ -15,24 +15,24 @@
     border-top: 1px solid #d8dee4;
     border-bottom: 1px solid #d8dee4;
 }
-.repository-header {
+.repository_header {
     display: flex;
     justify-content: space-between;
 }
-.repository-header-firstFlex{
+.repository_header_firstFlex{
     display: flex;
 }
-.repository-header_title {
+.repository_header_title {
     font-size: 20px;
     font-weight: 600;
     color: #0969da;
     cursor: pointer;
 }
-.repository-header_title:hover {
+.repository_header_title:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-.repository-header_type {
+.repository_header_type {
     height: 20px;
     margin-top: 6px;
     margin-left: 8px;
@@ -44,7 +44,7 @@
     border: 1px solid #d8dee4;
     border-radius: 2em;
 }
-.repository-header_button {
+.repository_header_button {
     width: 80px;
     padding: 3px 12px;
     font-size: 12px;
@@ -58,27 +58,27 @@
 .star {
     width: 15px;
 }
-.repository-footer {
+.repository_footer {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.repository-footer_programmingLanguage {
+.repository_footer_programmingLanguage {
     font-size: 12px;
     color: #57606a;
 }
 span {
     color: rgb(253, 207, 2);
 }
-.repository-footer_dateUpd {
+.repository_footer_dateUpd {
     color: #57606a;
     font-size: 12px;
     margin-left: 15px;
 }
-.repository-footer-firstFlex{
+.repository_footer_firstFlex{
     display: flex;
 }
-.repository-footer_activity {
+.repository_footer_activity {
     width: 80px;
     height: 20px;
     font-size: 12px;

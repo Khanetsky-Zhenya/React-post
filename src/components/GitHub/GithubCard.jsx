@@ -1,23 +1,23 @@
 import React from "react";
-import style from "./style.css"
+import styles from "./GithubCard.module.css"
 export class GithubCard extends React.Component {
     render() {
         const { title, type, programmingLanguage, dateUpd } = this.props;
-        return <div className="wrapper">
-            <div className="repository" >
-                <div className="repository-header">
-                    <div className="repository-header-firstFlex">
-                        <h2 className="repository-header_title">{`${title}`}</h2>
-                        <p className="repository-header_type">{`${type}`}</p>
+        return <div className={styles.wrapper}>
+            <div className={styles.repository}>
+                <div className={styles.repository_header}>
+                    <div className={styles.repository_header_firstFlex}>
+                        <h2 className={styles.repository_header_title}>{`${title}`}</h2>
+                        <p className={styles.repository_header_type}>{`${type}`}</p>
                     </div>
-                    <button className="repository-header_button">   &#9734; Star</button>
+                    <button className={styles.repository_header_button}>   &#9734; Star</button>
                 </div>
-                <div className="repository-footer">
-                    <div className="repository-footer-firstFlex">
-                        <p className="repository-footer_programmingLanguage"><span>&#9899;</span> {`${programmingLanguage}`}</p>
-                        <p className="repository-footer_dateUpd">{`${dateUpd}`}</p>
+                <div className={styles.repository_footer}>
+                    <div className={styles.repository_footer_firstFlex}>
+                        <p className={styles.repository_footer_programmingLanguage}><span>&#9899;</span> {`${programmingLanguage}`}</p>
+                        <p className={styles.repository_footer_dateUpd}>{`${dateUpd}`}</p>
                     </div>
-                    <button className="repository-footer_activity">activity</button>
+                    <button className={styles.repository_footer__activity}>activity</button>
                 </div>
             </div>
         </div>
