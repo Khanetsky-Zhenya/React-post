@@ -13,18 +13,18 @@
     
     position: relative;
 }
-.news-img{
+.news_img{
     position: absolute;
     top: 0px;
     left: 0px;
     height: 300px;
 }
-.news-info{
+.news_info{
     
     display: flex;
     justify-content: space-between;
 }
-.news-info__section{
+.news_info__section{
     position: absolute;
     top: 20px;
     left: 20px;
@@ -35,7 +35,7 @@
     font-weight: 700;
     text-transform: uppercase;
 }
-.news-info__commentCounter{
+.news_info__commentCounter{
     position: absolute;
     top: 20px;
     left: 545px;
@@ -48,7 +48,7 @@
     color: rgb(251, 255, 0);
     font-weight: 700;
 }
-.news-name{
+.news_name{
     width: 500px;
     position: absolute;
     top: 225px;

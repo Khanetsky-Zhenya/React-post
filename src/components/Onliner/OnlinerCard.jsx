@@ -1,16 +1,16 @@
 import React from 'react';
-import style from './style.css'
+import styles from './OnlinerCard.module.css'
 export class OnlinerCard extends React.Component {
     render (){
         const { avatarUrl, sectionTitle, nameNews, commentCounter } = this.props;
-        return <div className="wrapper">
-            <div className="news" >
-                <img className="news-img" src={avatarUrl} alt="image news" />
-                <div className="news-info">
-                    <p className="news-info__section">{`${sectionTitle}`}</p>
-                    <p className="news-info__commentCounter">{`${commentCounter}`}</p>
+        return <div className={styles.wrapper}>
+            <div className={styles.news}>
+                <img className={styles.news_img} src={avatarUrl} alt="image news" />
+                <div className={styles.news_info}>
+                    <p className={styles.news_info__section}>{`${sectionTitle}`}</p>
+                    <p className={styles.news_info__commentCounter}>{`${commentCounter}`}</p>
                 </div>
-                <h2 className="news-name">{`${nameNews}`}</h2>
+                <h2 className={styles.news_name}>{`${nameNews}`}</h2>
             </div>
         </div>
     }
